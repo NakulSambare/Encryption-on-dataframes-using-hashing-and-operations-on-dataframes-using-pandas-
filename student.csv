@@ -1,0 +1,11 @@
+RollNo,Name,Age,Shift,Result
+1,Nakul,20,1,pass
+2,Yogesh,18,1,pass
+3,Stavan,19,1,fail
+4,Latish,21,1,pass
+5,Abhishak,18,1,pass
+6,Saurabh,20,1,pass
+7,Shushant,19,1,fail
+8,Yash,21,2,fail
+9,Yavar,20,2,pass
+10,Pawan,21,2,pass
