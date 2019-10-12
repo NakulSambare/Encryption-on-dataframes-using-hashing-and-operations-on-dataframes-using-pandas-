@@ -9,8 +9,8 @@ python: 3.7
 
 # Install the codecov pip dependency
 install: 
-  -pip3 install --upgrade pip
-  -pip3 install pandas
+  - pip3 install --upgrade pip
+  - pip3 install pandas
 
 # Run the unit test
 script: python3 operations.py || python operations.py
