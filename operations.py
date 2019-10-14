@@ -27,21 +27,26 @@ def rowsandcol():
   
 def headtail():
     print('Head and Tail of DataFrame')
-    print('Enter no of rows you want to print from above')
-    h=int(input())
+   # print('Enter no of rows you want to print from above')
+    #h=int(input())
+    h=5
     print(df.head(h))
-    print('Enter no of rows you want to print from below')
-    t=int(input())
+    #print('Enter no of rows you want to print from below')
+    #t=int(input())
+    t=4
     print(df.tail(t))
     print()
     
     
 def printfrom():
-    print('Enter the positions from where you want data and upto what position')
-    p1=int(input())
-    p2=int(input())
+    #print('Enter the positions from where you want data and upto what position')
+    #p1=int(input())
+    #p2=int(input())
+    p1=2
+    p2=5
     print(df[p1:p2])
     print()
+
 def printcols():
     print('Printing only two columns')
     print(df[['RollNo','Name']])
@@ -76,7 +81,7 @@ def largesmall():
     print(df.nsmallest(5, ['a', 'c']))  
     
     
-    
+"""    
 while(i<=8):
     print("1.rows and columns  2.Head and Tail 3.Print from position 4.Print columns 5.Print Datatypes 6.max age 7.sort 8.largeand small 9.quit")
     j=int(input())
@@ -100,10 +105,14 @@ while(i<=8):
         break
     
     i=i+1
-    
-        
-        
-        
+ """
+rowsandcol()
+headtail()    
+printfrom()    
+printcols()
+datatypes()
+printmax()        
+largesmall()        
         
     
   
